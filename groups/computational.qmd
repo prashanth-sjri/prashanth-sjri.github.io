@@ -1,0 +1,56 @@
+---
+title: "Computational Science and Data Systems"
+toc: false
+---
+
+Machine learning, clinical AI validation and the data systems behind the centre’s studies, from models on clinical and sensor data to the platforms that collect it in the field.
+
+## Current work
+
+```{=html}
+<ul class="plain-list gwork"><li><strong>Clinical AI validation</strong> – Prospective validation of AI diagnostic tools against reference standards, with attention to uncertainty and failure cases. Includes LIRA, an AI tool for TB screening.</li><li><strong>Wearable activity classification</strong> – Models that classify carried, sedentary, light and moderate-to-vigorous activity in toddlers from raw accelerometer data.</li><li><strong>Gait and movement analysis</strong> – Marker-less, computer-vision gait analysis built in-house, with validation of OpenCap for detecting artificial biomechanical conditions.</li><li><strong>Digital twins for device trials</strong> – Mathematical models of medical devices, used to plan and stress-test clinical trials before participants are enrolled.</li><li><strong>Evidence synthesis</strong> – Systematic review and meta-analysis of salt, rice and wheat fortification and anaemia, iron deficiency and other micronutrient deficiencies (PROSPERO CRD420261306419).</li></ul>
+```
+
+## Software and dashboards
+
+Built in-house for the hospital and for the PRAKASH anaemia programme.
+
+```{=html}
+<div class="screen-grid">
+<div class="s-item"><figure class="screen" style="--glow:18,190,130;--gx:78%;--gy:85%"><img src="../images/software/prakash-district.webp" alt="PRAKASH district dashboard" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>PRAKASH district dashboard</h3><p>Anaemia burden by district, with a geographic heat map.</p></div></div>
+<div class="s-item"><figure class="screen" style="--glow:240,150,10;--gx:22%;--gy:80%"><img src="../images/software/prakash-tracker.webp" alt="PRAKASH individual beneficiary tracker" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>PRAKASH individual beneficiary tracker</h3><p>Enrolment, screening, treatment and follow-up for each person.</p></div></div>
+<div class="s-item"><figure class="screen" style="--glow:10,190,235;--gx:70%;--gy:18%"><img src="../images/software/prakash-asha-board.webp" alt="PRAKASH ASHA coordination board" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>PRAKASH ASHA coordination board</h3><p>Worker-level monitoring of follow-up and treatment.</p></div></div>
+<div class="s-item"><figure class="screen" style="--glow:18,190,130;--gx:78%;--gy:85%"><img src="../images/software/beds-overview.webp" alt="Bed monitoring system" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>Bed monitoring system</h3><p>Live occupancy across blocks and wards at St John&#x27;s Medical College Hospital.</p></div></div>
+<div class="s-item"><figure class="screen" style="--glow:240,150,10;--gx:22%;--gy:80%"><img src="../images/software/beds-trend.webp" alt="Bed occupancy trend" loading="lazy" decoding="async" style="object-position:50% 20%"></figure><div class="p-cap"><h3>Bed occupancy trend</h3><p>Daily occupancy over the last ten days.</p></div></div>
+<div class="s-item"><figure class="screen" style="--glow:10,190,235;--gx:70%;--gy:18%"><img src="../images/software/otms-register.webp" alt="Operation theatre management" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>Operation theatre management</h3><p>Registering cases and tracking them through the theatre day.</p></div></div>
+<div class="s-item"><figure class="screen" style="--glow:18,190,130;--gx:78%;--gy:85%"><img src="../images/software/otms-analytics.webp" alt="Operation theatre analytics" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>Operation theatre analytics</h3><p>Case volume, room distribution and anaesthesia statistics.</p></div></div>
+<div class="s-item"><figure class="screen" style="--glow:240,150,10;--gx:22%;--gy:80%"><img src="../images/software/vslam.webp" alt="Visual SLAM" loading="lazy" decoding="async" style="object-position:50% 50%"></figure><div class="p-cap"><h3>Visual SLAM</h3><p>Camera-based mapping and navigation, tested on a campus walkway.</p></div></div>
+<div class="s-item"><figure class="screen" style="--glow:10,190,235;--gx:70%;--gy:18%"><img src="../images/software/temp-dashboard.webp" alt="Temperature monitoring dashboard" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>Temperature monitoring dashboard</h3><p>ESP32 sensors logging temperature, viewed live and as tables.</p></div></div>
+</div>
+```
+
+**PRAKASH** tracks anaemia at the level of the individual, not the tablet. It captures haemoglobin from a HemoCue 301 over Bluetooth, classifies it against WHO thresholds, times alerts to the protocol, and gives each role its own dashboard.
+
+**Toddler activity classification** works from raw 80 Hz accelerometer data with FFT spectral features. A 12-model ensemble is used, and where the models disagree it is read as uncertainty. Child-wise validation is in progress.
+
+Other systems: a data repository for the Division of Molecular Sciences, and a digital key management system for the hospital, which is planned.
+
+## Team
+
+```{=html}
+<div class="gteam"><p class="gnote">Group lead</p><div class="gteam-lead"><a class="gmini" href="../people/index.html#ashwin-mohan"><figure class="pface sm"><img src="../images/people/ashwin-mohan.webp" alt="Ashwin Mohan" loading="lazy" decoding="async"></figure><span><strong>Ashwin Mohan</strong><em>Project Research Scientist II</em></span></a></div><p class="gnote">Members</p><div class="gteam-grid"><a class="gmini" href="../people/index.html#adwin-thomas-c"><figure class="pface sm"><img src="../images/people/adwin-thomas-c.webp" alt="Adwin Thomas C" loading="lazy" decoding="async"></figure><span><strong>Adwin Thomas C</strong><em>Data Scientist</em></span></a><a class="gmini" href="../people/index.html#athul-s-kumar"><figure class="pface sm"><img src="../images/people/athul-s-kumar.webp" alt="Athul S Kumar" loading="lazy" decoding="async"></figure><span><strong>Athul S Kumar</strong><em>Data Scientist</em></span></a></div></div>
+```
+
+```{=html}
+<script>
+(function(){
+  var main=document.getElementById('quarto-document-content'); if(!main) return;
+  var secs=[].slice.call(main.querySelectorAll(':scope > section.level2')); if(secs.length<2) return;
+  var bar=document.createElement('div'); bar.className='gtabs'; bar.setAttribute('role','tablist');
+  secs[0].parentNode.insertBefore(bar,secs[0]);
+  function show(i,push){secs.forEach(function(s,j){s.classList.toggle('gpanel-on',j===i)});[].forEach.call(bar.children,function(b,j){b.setAttribute('aria-selected',j===i);b.classList.toggle('on',j===i)});if(push)history.replaceState(null,'','#'+secs[i].id)}
+  secs.forEach(function(s,i){var h=s.querySelector(':scope > h2'); var b=document.createElement('button'); b.type='button'; b.setAttribute('role','tab'); b.textContent=h?h.textContent:('Tab '+(i+1)); b.onclick=function(){show(i,true)}; bar.appendChild(b); s.classList.add('gpanel')});
+  var start=0; secs.forEach(function(s,i){if(location.hash==='#'+s.id)start=i}); show(start,false);
+})();
+</script>
+```

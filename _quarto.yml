@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - images/**
+
+website:
+  title: "Prashanth Thankachan"
+  site-url: "https://prashanth-sjri.github.io"
+
+  navbar:
+    background: light
+    foreground: dark
+    pinned: true
+    left:
+      - text: "About"
+        href: index.qmd
+      - text: "Research"
+        href: research/index.qmd
+      - text: "Groups"
+        href: groups/index.qmd
+      - text: "People"
+        href: people/index.qmd
+      - text: "Publications"
+        href: publications/index.qmd
+      - text: "Contact"
+        href: contact/index.qmd
+      - text: "More"
+        menu:
+          - text: "Grants"
+            href: grants/index.qmd
+          - text: "News"
+            href: news/index.qmd
+
+  page-footer:
+    center: |
+      <div class="funders"><span class="funders-label">Supported by</span><div class="funders-row"><img src="/images/funders/icmr.png" alt="Indian Council of Medical Research" title="Indian Council of Medical Research" loading="lazy"><img src="/images/funders/dbt.png" alt="Department of Biotechnology" title="Department of Biotechnology" loading="lazy"><img src="/images/funders/wellcome-dbt-alliance.png" alt="Wellcome Trust / DBT India Alliance" title="Wellcome Trust / DBT India Alliance" loading="lazy"><img src="/images/funders/gates.png" alt="Gates Foundation" title="Gates Foundation" loading="lazy"><img src="/images/funders/wfp.png" alt="World Food Programme" title="World Food Programme" loading="lazy"><img src="/images/funders/eth.png" alt="ETH Zurich" title="ETH Zurich" loading="lazy"><img src="/images/funders/nyas.png" alt="New York Academy of Sciences" title="New York Academy of Sciences" loading="lazy"><img src="/images/funders/ni.png" alt="Nutrition International" title="Nutrition International" loading="lazy"></div></div>
+      © 2026 Dr. Prashanth Thankachan · <a href="https://www.stjohns.in/research-institute/" target="_blank" rel="noopener">St. John's Research Institute</a> · <a href="/contact/index.html">Contact</a><br><span class="site-credit">Website designed and developed by <a href="https://ashmohang.github.io" target="_blank" rel="noopener">Ashwin Mohan</a></span>
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    include-after-body: site-geometry.html

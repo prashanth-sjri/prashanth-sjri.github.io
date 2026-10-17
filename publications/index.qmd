@@ -1,0 +1,87 @@
+---
+title: "Publications"
+---
+
+```{=html}
+<div class="stat-strip">
+  <div><span class="stat-num">1,957</span><span class="stat-label">Citations</span></div>
+  <div><span class="stat-num">22</span><span class="stat-label">h-index</span></div>
+  <div><span class="stat-num">31</span><span class="stat-label">i10-index</span></div>
+  <div><span class="stat-num">926</span><span class="stat-label">Citations since 2021</span></div>
+</div>
+<p class="stat-note"><a href="https://scholar.google.com/citations?user=oVLsu5sAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>, October 2026.</p>
+```
+
+## Most cited
+
+::: {.pubs}
+
+1. P **Thankachan**, T Walczyk, S Muthayya, AV Kurpad, RF Hurrell. Iron absorption in young Indian women: the interaction of iron status with the influence of tea and ascorbic acid. *The American Journal of Clinical Nutrition* 87(4), 881–886 (2008). <span class="cites">266</span>
+
+2. D Moretti, MB Zimmermann, S Muthayya, **P Thankachan**, TC Lee, et al. Extruded rice fortified with micronized ground ferric pyrophosphate reduces iron deficiency in Indian schoolchildren: a double-blind randomized controlled trial. *The American Journal of Clinical Nutrition* 84(4), 822–829 (2006). <span class="cites">203</span>
+
+3. M Andersson, **P Thankachan**, S Muthayya, RB Goud, AV Kurpad, et al. Dual fortification of salt with iodine and iron: a randomized, double-blind, controlled trial of micronized ferric pyrophosphate and encapsulated ferrous fumarate in southern India. *The American Journal of Clinical Nutrition* 88(5), 1378–1387 (2008). <span class="cites">160</span>
+
+4. **P Thankachan**, S Muthayya, T Walczyk, AV Kurpad, RF Hurrell. An analysis of the etiology of anemia and iron deficiency in young women of low socioeconomic status in Bangalore, India. *Food and Nutrition Bulletin* 28(3), 328–336 (2007). <span class="cites">151</span>
+
+5. MW Bourassa, SA Abrams, JM Belizán, E Boy, G Cormick, CD Quijano, et al., **P Thankachan**, et al. Interventions to improve calcium intake through foods in populations with low intake. *Annals of the New York Academy of Sciences* 1511(1), 40–58 (2022). <span class="cites">108</span>
+
+6. S Muthayya, **P Thankachan**, S Hirve, V Amalrajan, T Thomas, H Lubree, et al. Iron fortification of whole wheat flour reduces iron deficiency and iron deficiency anemia and increases body iron stores in Indian school-aged children. *The Journal of Nutrition* 142(11), 1997–2003 (2012). <span class="cites">104</span>
+
+7. T Walczyk, S Muthayya, R Wegmüller, **P Thankachan**, A Sierksma, et al. Inhibition of iron absorption by calcium is modest in an iron-fortified, casein- and whey-based drink in Indian children and is easily compensated for by addition of ascorbic acid. *The Journal of Nutrition* 144(11), 1703–1709 (2014). <span class="cites">75</span>
+
+8. S Muthayya, **P Thankachan**, MB Zimmermann, M Andersson, A Eilander, et al. Low anemia prevalence in school-aged children in Bangalore, South India: possible effect of school health initiatives. *European Journal of Clinical Nutrition* 61(7), 865–869 (2007). <span class="cites">68</span>
+
+9. **P Thankachan**, JH Rah, T Thomas, S Selvam, V Amalrajan, K Srinivasan, et al. Multiple micronutrient-fortified rice affects physical performance and plasma vitamin B-12 and homocysteine concentrations of Indian school children. *The Journal of Nutrition* 142(5), 846–852 (2012). <span class="cites">63</span>
+
+:::
+
+<p class="stat-note">Numbers are citations on Google Scholar.</p>
+
+## Recent, 2022–2026
+
+::: {.pubs .plain}
+
+- Bansal PG, Mazumder S, Sharma N, Kulkarni R, **Thankachan P**, Prasad P, Panda B, Banjara SK, Kulkarni B, Chowdhury R, Chandiok K. Implementation research to develop and optimize delivery models for evidence-based anemia control interventions in India: protocol for the precision-driven response for anemia control and sustainable health (PRAKASH) study. *PLoS One* 21(6), e0351414 (2026).
+
+- **Thankachan P**, Swaminathan S, Muthayya S. Food fortification in India: evidence, implementation and future directions to reduce iron and other micronutrient deficiencies. *European Journal of Clinical Nutrition* (2026), 1–6.
+
+- Peris CH, Selvam S, Swaminathan S, Rangarajan R, Kurpad AV, Raj T, **Thankachan P**. The dose–response effects of vitamin D3 on serum 25-hydroxyvitamin D levels in vitamin D-deficient young Indian women: a randomized controlled trial. *Nutrients* 18(9), 1476 (2026).
+
+- Joe W, Ahluwalia K, Edathil AP, Kar SS, **Thankachan P**, Dee Pee S. Effectiveness of fortified rice in addressing micronutrient deficiencies: a systematic review and meta-analysis. *Food and Nutrition Bulletin* (2026).
+
+- Manna S, Chowdhury R, Pullakhandam R, Lyngdoh T, Nair KM, Kandpal V, Yadav K, Jacob M, Jaiswal A, Bansal PG, **Thankachan P**. A comprehensive review of iron prophylaxis in the National Anemia Control Programme in India (Anemia-Mukt Bharat). *medRxiv* (2026).
+
+- Peris CH, Selvam S, Swaminathan S, Rangarajan R, Raj T, **Thankachan P**. Associations of bone health biomarkers and bone mineral density with dietary intakes in vitamin D deficient women: a cross-sectional study. *Scientific Reports* 15(1), 43213 (2025).
+
+- **Thankachan P**, Sesikeran B, Chattopadhyay P, Jain A, Avinandan V, Yunus S, Chugh R. Assessing the effect of Government of India's pilot scheme on rice fortification and other etiological factors on the prevalence of anaemia among non-pregnant women in Odisha and Uttar Pradesh. *medRxiv* (2025).
+
+- Rani V, Moretti D, Khetarpaul N, **Thankachan P**, Zimmermann MB, Melse-Boonstra A, Brouwer ID. Vitamin C-rich guava consumed with mungbean dal reduces anemia and increases hemoglobin but not iron stores: a randomized controlled trial of food-to-food fortification in Indian children. *The Journal of Nutrition* 154(12), 3740–3748 (2024).
+
+- Lobo E, Deepa R, Mandal S, Menon JS, Roy A, Dixit S, Gupta R, Swaminathan S, **Thankachan P**, Bhavnani S, Divan G. Protocol of the nutritional, psychosocial, and environmental determinants of neurodevelopment and child mental health (COINCIDE) study. *Wellcome Open Research* 9, 486 (2024).
+
+- Rana ZH, Bourassa MW, Gomes F, Khadilkar A, Mandlik R, Owino V, Pettifor JM, Roth DE, Shlisky J, **Thankachan P**, Weaver CM. Calcium status assessment at the population level: candidate approaches and challenges. *Annals of the New York Academy of Sciences* 1517(1), 93–106 (2022).
+
+- **Thankachan P**, Selvam S, Narendra AR, Mishra HN, Sachdev HS, Thomas T, Kurpad AV. There should always be a free lunch: the impact of COVID-19 lockdown suspension of the mid-day meal on nutriture of primary school children in Karnataka, India. *BMJ Nutrition, Prevention & Health* 5(2), 364 (2022).
+
+- Reddy BH, **Thankachan P**, Hatakayama M, Hiremath N, Moretti D, Nanjareddy YA, Thumilan MB, Ravikumar RL, Phadnis S, Bose B, Poveda L. A natural low phytic acid finger millet accession significantly improves iron bioavailability in Indian women. *Frontiers in Nutrition* 8, 791392 (2022).
+
+:::
+
+## In preparation
+
+::: {.pubs .plain}
+
+- **PRAKASH perspective paper.** *Tracking beneficiaries, not tablets: a digital cascade for individual-level anaemia resolution at India's last mile.* Draft under review.
+
+- **PRAKASH clinical outcomes manuscript.** Draft under review.
+
+- **LIRA validation and calibration study.** Clinical validation of an AI tool for TB screening. Draft under review.
+
+- **Systematic review and meta-analysis of rice, wheat and salt fortification** and anaemia, iron deficiency and micronutrient status in India. PROSPERO CRD420261306419. Data extraction in progress.
+
+- **Toddler activity classification from raw accelerometer data using machine learning.** Planned.
+
+:::
+
+<p class="stat-note">The full list is on <a href="https://scholar.google.com/citations?user=oVLsu5sAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.</p>

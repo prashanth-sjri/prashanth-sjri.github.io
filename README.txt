@@ -1,0 +1,1 @@
+Replace index.qmd and geometry.js; replace images/iron-absorption.png; append HOMEPAGE-CSS-CORRECTIONS.txt to END of existing styles.css (after prior additions). Refresh browser with Cmd+Shift+R. The image is a crop of the supplied design mockup, not scientific microscopy data.
