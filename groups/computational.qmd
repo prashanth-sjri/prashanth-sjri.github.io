@@ -8,32 +8,162 @@ Machine learning, clinical AI validation and the data systems behind the centre�
 ## Current work
 
 ```{=html}
-<ul class="plain-list gwork"><li><strong>Clinical AI validation</strong> – Prospective validation of AI diagnostic tools against reference standards, with attention to uncertainty and failure cases. Includes LIRA, an AI tool for TB screening.</li><li><strong>Wearable activity classification</strong> – Models that classify carried, sedentary, light and moderate-to-vigorous activity in toddlers from raw accelerometer data.</li><li><strong>Gait and movement analysis</strong> – Marker-less, computer-vision gait analysis built in-house, with validation of OpenCap for detecting artificial biomechanical conditions.</li><li><strong>Digital twins for device trials</strong> – Mathematical models of medical devices, used to plan and stress-test clinical trials before participants are enrolled.</li><li><strong>Evidence synthesis</strong> – Systematic review and meta-analysis of salt, rice and wheat fortification and anaemia, iron deficiency and other micronutrient deficiencies (PROSPERO CRD420261306419).</li></ul>
+<ul class="plain-list gwork"><li><strong>PRAKASH tracking system</strong> – A digital test, treat and track system that follows each person from the first haemoglobin test to a confirmed result, used at the Koppal site of the ICMR anaemia study.</li><li><strong>Hospital management software</strong> – A bed management system and an operation theatre management system running across St. John's Medical College Hospital, with live dashboards and regular performance reports.</li><li><strong>Clinical AI validation</strong> – Prospective validation of AI diagnostic tools against reference standards, with attention to uncertainty and failure cases. Includes LIRA, an AI tool for TB screening.</li><li><strong>Wearable activity classification</strong> – Models that classify carried, sedentary, light and moderate-to-vigorous activity in toddlers from raw accelerometer data.</li><li><strong>Gait and movement analysis</strong> – Marker-less, computer-vision gait analysis built in-house, with validation of OpenCap for detecting artificial biomechanical conditions.</li><li><strong>Digital twins for device trials</strong> – Mathematical models of medical devices, used to plan and stress-test clinical trials before participants are enrolled.</li><li><strong>Evidence synthesis</strong> – Systematic review and meta-analysis of salt, rice and wheat fortification and anaemia, iron deficiency and other micronutrient deficiencies (PROSPERO CRD420261306419).</li></ul>
 ```
 
-## Software and dashboards
+## PRAKASH tracking
 
-Built in-house for the hospital and for the PRAKASH anaemia programme.
+PRAKASH is the test, treat and track system for the ICMR anaemia implementation study. It was built by this group for the Koppal site, and it is designed to follow a **person**, not a count of tablets.
+
+### The problem it addresses
+
+India has given out iron and folic acid for more than four decades, yet anaemia prevalence has barely moved. The national monitoring system counts what is distributed, not what happens to each beneficiary.
+
+- **Tablets counted, not taken.** Reporting shows how many tablets went out. It cannot show whether a particular woman or child took them.
+- **No reminder to retest.** Nothing prompts the ASHA for a repeat haemoglobin test, so cases drift with no conclusion.
+- **Paper resolution.** A case can be closed when the course of pills ends, without a retest to show the anaemia has gone.
+- **Blind supervision.** Medical officers see block percentages, not which workers need support.
 
 ```{=html}
-<div class="screen-grid">
-<div class="s-item"><figure class="screen" style="--glow:18,190,130;--gx:78%;--gy:85%"><img src="../images/software/prakash-district.webp" alt="PRAKASH district dashboard" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>PRAKASH district dashboard</h3><p>Anaemia burden by district, with a geographic heat map.</p></div></div>
-<div class="s-item"><figure class="screen" style="--glow:240,150,10;--gx:22%;--gy:80%"><img src="../images/software/prakash-tracker.webp" alt="PRAKASH individual beneficiary tracker" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>PRAKASH individual beneficiary tracker</h3><p>Enrolment, screening, treatment and follow-up for each person.</p></div></div>
-<div class="s-item"><figure class="screen" style="--glow:10,190,235;--gx:70%;--gy:18%"><img src="../images/software/prakash-asha-board.webp" alt="PRAKASH ASHA coordination board" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>PRAKASH ASHA coordination board</h3><p>Worker-level monitoring of follow-up and treatment.</p></div></div>
-<div class="s-item"><figure class="screen" style="--glow:18,190,130;--gx:78%;--gy:85%"><img src="../images/software/beds-overview.webp" alt="Bed monitoring system" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>Bed monitoring system</h3><p>Live occupancy across blocks and wards at St John&#x27;s Medical College Hospital.</p></div></div>
-<div class="s-item"><figure class="screen" style="--glow:240,150,10;--gx:22%;--gy:80%"><img src="../images/software/beds-trend.webp" alt="Bed occupancy trend" loading="lazy" decoding="async" style="object-position:50% 20%"></figure><div class="p-cap"><h3>Bed occupancy trend</h3><p>Daily occupancy over the last ten days.</p></div></div>
-<div class="s-item"><figure class="screen" style="--glow:10,190,235;--gx:70%;--gy:18%"><img src="../images/software/otms-register.webp" alt="Operation theatre management" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>Operation theatre management</h3><p>Registering cases and tracking them through the theatre day.</p></div></div>
-<div class="s-item"><figure class="screen" style="--glow:18,190,130;--gx:78%;--gy:85%"><img src="../images/software/otms-analytics.webp" alt="Operation theatre analytics" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>Operation theatre analytics</h3><p>Case volume, room distribution and anaesthesia statistics.</p></div></div>
-<div class="s-item"><figure class="screen" style="--glow:240,150,10;--gx:22%;--gy:80%"><img src="../images/software/vslam.webp" alt="Visual SLAM" loading="lazy" decoding="async" style="object-position:50% 50%"></figure><div class="p-cap"><h3>Visual SLAM</h3><p>Camera-based mapping and navigation, tested on a campus walkway.</p></div></div>
-<div class="s-item"><figure class="screen" style="--glow:10,190,235;--gx:70%;--gy:18%"><img src="../images/software/temp-dashboard.webp" alt="Temperature monitoring dashboard" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>Temperature monitoring dashboard</h3><p>ESP32 sensors logging temperature, viewed live and as tables.</p></div></div>
+<div class="dv-facts" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr))">
+<div><b>~4,000</b><span>Participants enrolled</span><em>Research scale, Koppal</em></div>
+<div><b>5</b><span>Sampled areas</span><em>Across the district</em></div>
+<div><b>~60</b><span>ASHA workers connected</span><em>Each with a personal list</em></div>
 </div>
 ```
 
-**PRAKASH** tracks anaemia at the level of the individual, not the tablet. It captures haemoglobin from a HemoCue 301 over Bluetooth, classifies it against WHO thresholds, times alerts to the protocol, and gives each role its own dashboard.
+### How it works
 
-**Toddler activity classification** works from raw 80 Hz accelerometer data with FFT spectral features. A 12-model ensemble is used, and where the models disagree it is read as uncertainty. Child-wise validation is in progress.
+Field staff and ASHAs enter data on ordinary smartphones through a browser form, so nothing needs installing. Entries go to a live database, a rules engine classifies each result against WHO haemoglobin cut-offs and advances the person through the cascade, and role-specific dashboards show the same data to each level of the health system.
 
-Other systems: a data repository for the Division of Molecular Sciences, and a digital key management system for the hospital, which is planned.
+```{=html}
+<div class="flow4">
+<div><span>01</span><h4>Field</h4><p>ASHAs and ANMs enrol people and enter haemoglobin results through a browser form. No app to install.</p></div>
+<div><span>02</span><h4>Data</h4><p>A live database applies WHO classification and gives each person a cascade state.</p></div>
+<div><span>03</span><h4>Analytics</h4><p>A Python engine times the alerts, flags non-responders and scores PHC and ASHA performance.</p></div>
+<div><span>04</span><h4>Display</h4><p>Browser dashboards for medical officers, ASHAs and the research team, plus exportable reports.</p></div>
+</div>
+```
+
+### The cascade
+
+Every person has a state that moves forward with time and with results. The alerts are set against the national protocol, so the 30 and 90 day checkpoints shown are the defaults for one common case, not a fixed rule.
+
+```{=html}
+<div class="cascade">
+<div class="cs"><b>Pending</b><span>Anaemia found</span></div><i></i>
+<div class="cs"><b>Treatment started</b><span>Logged by the ASHA</span></div><i></i>
+<div class="cs"><b>Compliance check due</b><span>Day 30, home visit alert</span></div><i></i>
+<div class="cs"><b>Hb retest due</b><span>Day 90, turns red if late</span></div><i></i>
+<div class="cs ok"><b>Resolved</b><span>Only after a retest shows a rise of at least 1 g/dL</span></div>
+</div>
+<p class="cascade-note">A person whose retest does not improve is flagged as a non-responder and sent down a differential-diagnosis path (blood count, serum ferritin, CRP), because not all anaemia is iron deficiency.</p>
+```
+
+The key design rule is that a case cannot be closed without a retest value. Closing on paper is not possible.
+
+### What each person sees
+
+- **Chief medical officer** – District prevalence, PHC ranking, severe-anaemia escalations and the monthly trend against target.
+- **Medical officer or CHO** – People due for a retest, non-responder flags, ASHA compliance for the block and the week's follow-up list.
+- **ASHA** – Notifications of what is due, a pre-filled form for logging visits and her own beneficiary list.
+- **Research team** – Exportable datasets, cascade completion by block and cross-site comparisons.
+
+The supervisory view is built for support, not blame. Overdue cases rise to the people who can send supplies, transport or help, instead of being used to audit workers after the fact. Every logged action is attributed and time-stamped in an audit trail.
+
+```{=html}
+<div class="screen-grid">
+<div class="s-item"><figure class="screen" style="--glow:18,190,130;--gx:78%;--gy:85%"><img src="../images/software/prakash-district.webp" alt="PRAKASH district dashboard" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>District dashboard</h3><p>Anaemia burden by area, with a geographic heat map.</p></div></div><div class="s-item"><figure class="screen" style="--glow:240,150,10;--gx:78%;--gy:85%"><img src="../images/software/prakash-tracker.webp" alt="PRAKASH individual beneficiary tracker" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>Individual tracker</h3><p>Screening, diagnosis, treatment and follow-up for each person.</p></div></div><div class="s-item"><figure class="screen" style="--glow:10,190,235;--gx:78%;--gy:85%"><img src="../images/software/prakash-asha-board.webp" alt="PRAKASH ASHA coordination board" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>ASHA coordination board</h3><p>Worker-level monitoring of follow-up and treatment.</p></div></div>
+</div>
+```
+
+### Data protection
+
+The study runs under institutional ethics approval, with written consent before any data is collected. Personal identifiers sit only in the access-controlled database, are never shown on the dashboards and are removed before results are published. The platform is designed to Digital Personal Data Protection Act principles, with access logging.
+
+### Open design questions
+
+The team lists what is not yet solved. There is no state yet for a person who becomes untrackable, such as someone who moves away. Resolution rests on a single retest, which a second confirmatory test would strengthen. The retest is logged by the same worker whose compliance is being reviewed, and the system describes only people who reach a screening point in the first place. A description of the architecture is in preparation as a perspective paper.
+
+## Hospital systems
+
+Two systems built for St. John's Medical College Hospital, in daily use and reporting back to the hospital. Both are written for the staff who run the wards and theatres, and both produce regular performance reports.
+
+### Bed management system
+
+Live bed occupancy for every ward, with department census and service-request tracking.
+
+```{=html}
+<div class="dv-facts" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr))">
+<div><b>67</b><span>Wards tracked</span><em>43 departments</em></div>
+<div><b>53.3%</b><span>Average ward occupancy</span><em>26 weeks, 12 Mar – 31 Aug 2026</em></div>
+<div><b>70%</b><span>Of occupied beds in common wards</span><em>30% in private wards</em></div>
+</div>
+```
+
+The report for 12 March to 31 August 2026 shows general medicine carrying the highest load of any department, with several smaller departments routinely holding more patients than their dedicated beds. Occupancy was 56.2% on 1 September, against functional beds.
+
+```{=html}
+<div class="chart-grid">
+<figure class="chart"><img src="../images/software/bms-wards.webp" alt="Top wards by average occupancy" loading="lazy" decoding="async"><figcaption>Average occupancy of the busiest wards, 12 March to 31 August 2026.</figcaption></figure><figure class="chart"><img src="../images/software/bms-departments.webp" alt="Average daily patients by department" loading="lazy" decoding="async"><figcaption>Average patients per day by department.</figcaption></figure><figure class="chart"><img src="../images/software/bms-trend.webp" alt="Total occupied beds, 23 August to 1 September" loading="lazy" decoding="async"><figcaption>Total occupied beds over ten days, each ward carried forward to its last logged reading.</figcaption></figure><figure class="chart"><img src="../images/software/bms-blocks.webp" alt="Occupancy by hospital block" loading="lazy" decoding="async"><figcaption>Occupancy by hospital block.</figcaption></figure>
+</div>
+<div class="screen-grid">
+<div class="s-item"><figure class="screen" style="--glow:18,190,130;--gx:78%;--gy:85%"><img src="../images/software/beds-overview.webp" alt="Bed monitoring system" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>Live bed overview</h3><p>Live occupancy across blocks and wards.</p></div></div><div class="s-item"><figure class="screen" style="--glow:240,150,10;--gx:78%;--gy:85%"><img src="../images/software/beds-trend.webp" alt="Bed occupancy trend" loading="lazy" decoding="async" style="object-position:50% 20%"></figure><div class="p-cap"><h3>Occupancy trend</h3><p>Daily occupancy over the last ten days.</p></div></div>
+</div>
+```
+
+### Operation theatre management system
+
+Registers each surgical case and follows it through the theatre day, from pre-op to recovery. The analytics turn the register into utilisation, volume and quality figures.
+
+```{=html}
+<div class="dv-facts" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr))">
+<div><b>44</b><span>Theatre rooms</span><em>Across 40+ departments</em></div>
+<div><b>1,415</b><span>Cases logged</span><em>5 Aug – 1 Sep 2026</em></div>
+<div><b>89%</b><span>Reached completed status</span><em>4.5% cancelled</em></div>
+<div><b>1h 52m</b><span>Average duration</span><em>Recovery stay 47 min, target 60</em></div>
+</div>
+```
+
+General surgery, orthopaedics and ophthalmology together made up over half of all cases. Seven in ten cases were planned elective surgery and 23% were emergencies. Most cancellations traced to entry mistakes rather than clinical reasons, which is the kind of finding the register is meant to expose.
+
+```{=html}
+<div class="chart-grid">
+<figure class="chart wide"><img src="../images/software/otms-trend.webp" alt="Daily surgery volume" loading="lazy" decoding="async"><figcaption>Daily surgery volume over the last 30 days.</figcaption></figure><figure class="chart"><img src="../images/software/otms-departments.webp" alt="Top departments by case volume" loading="lazy" decoding="async"><figcaption>Cases by department.</figcaption></figure><figure class="chart"><img src="../images/software/otms-duration.webp" alt="Average procedure duration by department" loading="lazy" decoding="async"><figcaption>Average duration by department.</figcaption></figure><figure class="chart"><img src="../images/software/otms-casemix.webp" alt="Case type and status mix" loading="lazy" decoding="async"><figcaption>Elective and emergency mix, and case status.</figcaption></figure><figure class="chart"><img src="../images/software/otms-anaesthesia.webp" alt="Anaesthesia type" loading="lazy" decoding="async"><figcaption>Anaesthesia type in completed cases.</figcaption></figure>
+</div>
+<div class="screen-grid">
+<div class="s-item"><figure class="screen" style="--glow:10,190,235;--gx:78%;--gy:85%"><img src="../images/software/otms-register.webp" alt="Operation theatre management" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>Case register</h3><p>Registering cases and tracking them through the theatre day.</p></div></div><div class="s-item"><figure class="screen" style="--glow:18,190,130;--gx:78%;--gy:85%"><img src="../images/software/otms-analytics.webp" alt="Operation theatre analytics" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>Theatre analytics</h3><p>Case volume, room distribution and anaesthesia statistics.</p></div></div>
+</div>
+```
+
+## Activity classification
+
+A model that classifies what a toddler is doing from a wrist or hip accelerometer, built on the ActiGraph GT3X for studies that measure physical activity in early childhood. Standard cut-point methods give only sedentary, light and vigorous. A child being carried and a child playing quietly can produce similar overall movement, so the model works from the raw signal instead.
+
+- **Data.** Raw tri-axial acceleration at 80 Hz, cut into 15-second windows, each tied to one child and one directly observed activity. The analysis covers 59 children at about 12, 24 and 36 months, with 26,235 windows.
+- **Five activities.** Sedentary, light play, moderate-to-vigorous activity, being carried (non-ambulatory high) and gentle movement (non-ambulatory low).
+- **Measures.** Alongside the standard activity count, 73 measures describe the signal: strength and spread, regularity, rhythm across frequency bands, and coordination between directions.
+- **Models.** A random forest of 300 trees, compared with a multinomial logistic regression and a baseline that always guesses the commonest activity. Rarer activities carry more weight in training, with no synthetic data added.
+- **Testing on unseen children.** Leave-one-child-out validation: the model is trained on every child except one and tested on that child, repeated 59 times, with settings chosen only on the training children. Splitting by time window can overstate accuracy because a model learns a child's own movement pattern.
+- **Comparison and checks.** Results are compared with the published toddler cut-points of Trost, scored by macro-F1 so rare activities count equally, with bootstrap confidence intervals over children and eleven planned sensitivity analyses.
+
+```{=html}
+<div class="chart-grid">
+<figure class="chart wide"><img src="../images/software/act-signals.webp" alt="Raw acceleration for each activity in one child" loading="lazy" decoding="async"><figcaption>One minute of raw acceleration for each activity in a 2-year-old. Sitting and gentle movement stay near 1 g, carrying shows bursts, and running and climbing show repeated high peaks.</figcaption></figure><figure class="chart"><img src="../images/software/act-validation.webp" alt="Leave-one-child-out validation design" loading="lazy" decoding="async"><figcaption>Testing design. In each round one child is held out, and settings are tuned on the remaining children only.</figcaption></figure><figure class="chart"><img src="../images/software/act-flow.webp" alt="Flow of children and windows into the analysis" loading="lazy" decoding="async"><figcaption>Children and windows included in the analysis, by age group.</figcaption></figure><figure class="chart"><img src="../images/software/act-minutes.webp" alt="Observed minutes of each activity by age group" loading="lazy" decoding="async"><figcaption>Observed minutes of each activity by age group.</figcaption></figure>
+</div>
+```
+
+## Other software
+
+Built in-house for the hospital and the centre's studies.
+
+```{=html}
+<div class="screen-grid">
+<div class="s-item"><figure class="screen" style="--glow:240,150,10;--gx:78%;--gy:85%"><img src="../images/software/vslam.webp" alt="Visual SLAM" loading="lazy" decoding="async" style="object-position:50% 50%"></figure><div class="p-cap"><h3>Visual SLAM</h3><p>Camera-based mapping and navigation, tested on a campus walkway.</p></div></div><div class="s-item"><figure class="screen" style="--glow:10,190,235;--gx:78%;--gy:85%"><img src="../images/software/temp-dashboard.webp" alt="Temperature monitoring dashboard" loading="lazy" decoding="async" style="object-position:50% 0%"></figure><div class="p-cap"><h3>Temperature monitoring</h3><p>ESP32 sensors logging temperature, viewed live and as tables.</p></div></div>
+</div>
+```
+
+Also a data repository for the Division of Molecular Sciences, and a digital key management system for the hospital, which is planned.
 
 ## Team
 

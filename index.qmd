@@ -25,19 +25,11 @@ page-layout: full
        alt="Professor Prashanth Thankachan">
 </div>
 
-::: {.intro-eyebrow}
-Nutrition · Public Health · Translational Research
-:::
+# Fortifying the staple foods<span class="hero-period">.</span> { #hero-headline .hero-title data-net-anchor="left" }
 
-# From nutrients to better lives<span class="hero-period">.</span> { .hero-title data-net-anchor="left" }
-
-Prashanth Thankachan is Professor in the Division of
-Nutrition at St. John's Research Institute, Bengaluru,
-and Programme Director of ICMR CAR–MedTech.
-
-His work spans nutritional physiology, micronutrient
-research, public health and the development and
-evaluation of medical technologies.
+```{=html}
+<p id="hero-lede" class="hero-lede">Rice, wheat flour and salt fortified with iron, vitamin B12, folic acid and zinc, tested in school-based randomised trials. A 2006 double-blind trial cut iron deficiency in Bangalore schoolchildren from 78% to 25% in seven months.</p>
+```
 
 ```{=html}
 <ul class="hero-topics" aria-label="Research themes">
@@ -50,6 +42,12 @@ evaluation of medical technologies.
 </ul>
 ```
 
+::: {.hero-id}
+Prashanth Thankachan is Professor in the Division of
+Nutrition at St. John's Research Institute, Bengaluru,
+and Principal Investigator of ICMR-CAR MEDTECH.
+:::
+
 :::
 
 ::: {.hero-visual}
@@ -60,8 +58,8 @@ evaluation of medical technologies.
     <img class="hs-slide is-active" src="images/hero/micronutrients.webp" width="1400" height="1400" alt="Scanning-style view of intestinal villi and nutrient absorption" data-label="Micronutrients" data-target="#t-micro" data-arc="copper" style="--op:1;--lum:1.04" decoding="async">
     <img class="hs-slide" src="images/hero/publichealth.webp" width="1400" height="1400" alt="Population network linking communities over a contour map" data-label="Public health" data-target="#t-public" data-arc="teal" style="--op:.9;--lum:1.22" loading="lazy" decoding="async">
     <img class="hs-slide" src="images/hero/anaemia.webp" width="1400" height="1400" alt="Red blood cells, some pale, drifting in plasma" data-label="Anaemia" data-target="#t-anaemia" data-arc="copper" data-motion="flow" data-contrast="0.78,1.3" style="--op:1;--lum:1" loading="lazy" decoding="async">
-    <img class="hs-slide" src="images/hero/uav.webp" width="1400" height="1400" alt="Quadcopter with a downward time-of-flight scan" data-label="UAV design" data-target="#t-uav" data-arc="teal" style="--op:.9;--lum:1.28" loading="lazy" decoding="async">
-    <img class="hs-slide" src="images/hero/device.webp" width="1400" height="1400" alt="Close-up of a wearable optical sensor board" data-label="Medical devices" data-target="#t-devices" data-arc="copper" style="--op:.88;--lum:1.18" loading="lazy" decoding="async">
+    <img class="hs-slide" src="images/hero/uav.webp" width="1400" height="1400" alt="An early autonomous flying wing in flight beside a black kite" data-label="UAV design" data-target="#t-uav" data-arc="teal" style="--op:1;--lum:1" loading="lazy" decoding="async">
+    <img class="hs-slide" src="images/hero/device.webp" width="1400" height="1400" alt="A hand-built circuit board with surface-mount chips" data-label="Medical devices" data-target="#t-devices" data-arc="copper" style="--op:1;--lum:1" loading="lazy" decoding="async">
     <img class="hs-slide" src="images/hero/models.webp" width="1400" height="1400" alt="Stacked posterior distributions with a credible interval" data-label="Computational models" data-target="#t-models" data-arc="grey" style="--op:.92;--lum:1.3" loading="lazy" decoding="async">
     <div class="hs-tint"></div>
   </div>
@@ -115,6 +113,11 @@ evaluation of medical technologies.
 
 ::: {.editorial-section}
 
+::: {.about-grid}
+
+
+::: {.about-text}
+
 ## About {data-net-anchor="left"}
 
 Trained in medical physiology, his research has
@@ -126,6 +129,84 @@ Alongside this work, he has pursued the development
 of healthcare technologies, bringing together
 clinical research, engineering and experimental
 approaches to address practical healthcare needs.
+
+:::
+
+```{=html}
+<div class="about-collage" data-net-anchor="edge">
+  <figure class="ac ac-a" tabindex="0"><img src="images/about-panel.webp" width="900" height="900" alt="Prof. Prashanth Thankachan speaking in a panel discussion" loading="lazy" decoding="async"></figure>
+  <figure class="ac ac-b" tabindex="0"><img src="images/about-speaking.webp" width="960" height="770" alt="Prof. Prashanth Thankachan presenting at a lectern" loading="lazy" decoding="async"></figure>
+  <span class="ac-ring" aria-hidden="true"></span>
+</div>
+```
+
+:::
+
+:::
+
+```{=html}
+<div class="scene" aria-label="Photographs from the field and the laboratory">
+  <figure class="sc sc-1" style="--d:0s"><img src="images/gallery/field-workshop.webp" width="1400" height="933" alt="Prof. Thankachan addressing a community health workshop" loading="lazy" decoding="async"><figcaption>Community workshop</figcaption></figure>
+  <figure class="sc sc-2" style="--d:.15s"><img src="images/gallery/lab-analyser-room.webp" width="1400" height="933" alt="Clinical chemistry analyser in the nutrition laboratory" loading="lazy" decoding="async"><figcaption>Nutrition laboratory</figcaption></figure>
+  <figure class="sc sc-3" style="--d:.3s"><img src="images/gallery/field-ceremony.webp" width="1400" height="933" alt="Plant-watering ceremony at a field programme inauguration" loading="lazy" decoding="async"><figcaption>Programme inauguration</figcaption></figure>
+  <figure class="sc sc-4" style="--d:.45s"><img src="images/gallery/lab-massspec.webp" width="1400" height="567" alt="Mass spectrometer used for isotope analysis" loading="lazy" decoding="async"><figcaption>Isotope analysis</figcaption></figure>
+</div>
+<script>
+(function(){
+  var els=document.querySelectorAll(".scene .sc"); if(!els.length) return;
+  if(!("IntersectionObserver" in window)||matchMedia("(prefers-reduced-motion: reduce)").matches){els.forEach(function(e){e.classList.add("in")});return}
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.15});
+  els.forEach(function(e){io.observe(e)});
+})();
+</script>
+```
+
+::: {.section-divider}
+:::
+
+::: {.editorial-section}
+
+## Aviation and unmanned aerial systems {#aviation data-net-anchor="left"}
+
+```{=html}
+<div class="uas">
+  <p class="uas-lead">Prof. Thankachan has been an aeromodeller since the early 2000s. He is self-taught, with a working grasp of aerodynamics, avionics and aviation regulation, and holds a DGCA remote pilot certificate. He has flown radio-controlled and unmanned aircraft for both recreation and professional work.</p>
+  <p>In 2007 he built an open-source autopilot from the circuit board up and flew it as a fully autonomous navigation system. He went on to demonstrate several autonomous flights for research at IISc.</p>
+
+  <div class="uas-gallery">
+    <div class="uas-row" style="--h:300px">
+      <figure style="--ar:1.607"><img src="images/uas/wing.webp" width="1000" height="622" alt="An early autonomous flying wing with its flight electronics and battery slung underneath" loading="lazy" decoding="async"></figure>
+      <figure style="--ar:0.823"><img src="images/uas/trainer.webp" width="720" height="875" alt="Hand launch of a radio-controlled trainer aircraft at the flying field" loading="lazy" decoding="async"></figure>
+    </div>
+    <div class="uas-row" style="--h:210px">
+      <figure style="--ar:1.607"><img src="images/uas/hawk.webp" width="1000" height="622" alt="The flying wing in flight with a black kite overhead" loading="lazy" decoding="async"></figure>
+      <figure style="--ar:1.607"><img src="images/uas/hawk2.webp" width="1000" height="622" alt="The flying wing turning in cloud as a black kite follows" loading="lazy" decoding="async"></figure>
+    </div>
+    <p class="uas-credit">An early autonomous flying wing with camera. Photographs: Abhay Pawar.</p>
+  </div>
+
+  <div class="uas-skills">
+    <h3>UAS operations and flight safety</h3>
+    <ul>
+      <li><strong>Licensed remote pilot.</strong> DGCA-certified remote pilot in India, for legal and safe civil and commercial drone operations.</li>
+      <li><strong>Mission planning.</strong> Airspace categories from the Digital Sky maps, pre-flight checks, risk assessment and safe flight profiles.</li>
+      <li><strong>Telemetry and data analysis.</strong> Live flight telemetry, battery diagnostics from single-cell to multi-cell packs, and tracing connectivity and sensor faults.</li>
+    </ul>
+    <h3>Aeromodelling and aerospace engineering</h3>
+    <ul>
+      <li><strong>Design and fabrication.</strong> Designs, builds, modifies and balances fixed-wing and rotary aircraft in balsa, foam, carbon fibre and composites.</li>
+      <li><strong>Systems integration and electronics.</strong> Installs, configures and tunes autopilots, flight controllers, speed controllers (ESCs), power distribution boards and receiver and transmitter links.</li>
+      <li><strong>FPV (first-person view).</strong> Sets up and tunes FPV cameras, video transmitters and low-latency radio links (ELRS, Crossfire) for micro, whoop and long-endurance platforms.</li>
+    </ul>
+    <h3>Aviation systems and sensors</h3>
+    <ul>
+      <li><strong>Hardware-in-the-loop work.</strong> Time-of-flight (ToF) sensors, odometry modules and other micro-sensors for positional and environmental telemetry.</li>
+      <li><strong>Flight simulation.</strong> High-fidelity simulators to sharpen manual piloting, test aerodynamics and model aircraft behaviour in different atmospheric conditions.</li>
+      <li><strong>Regulatory compliance.</strong> Aviation law, airspace restrictions, no-fly zones and maintenance logging.</li>
+    </ul>
+  </div>
+</div>
+```
 
 :::
 
@@ -147,16 +228,16 @@ interventions.
 ### Medical technology {data-net-anchor="left"}
 
 Development, characterisation and clinical
-validation of medical devices through CAR–MedTech.
+validation of medical devices through ICMR-CAR MEDTECH.
 
-[Explore CAR–MedTech →](research/projects.qmd)
+[Explore ICMR-CAR MEDTECH →](groups/medtech.qmd)
 
 ### Computational methods {data-net-anchor="left"}
 
 Applications of data science, machine learning
 and sensor-based systems in healthcare research.
 
-[Explore projects →](research/areas.qmd)
+[Explore the group →](groups/computational.qmd)
 
 :::
 
@@ -276,3 +357,52 @@ projects and collaborative work.
   });
 })();
 </script>
+<script>
+(function () {
+  var a = document.querySelectorAll(".about-collage .ac");
+  if (!a.length || !window.matchMedia("(hover: none)").matches) return;
+  a.forEach(function (el) { el.addEventListener("click", function () { el.classList.toggle("is-color"); }); });
+})();
+</script>
+
+```{=html}
+<script>
+(function () {
+  var C = {
+    "t-micro": ["Fortifying the staple foods", "Rice, wheat flour and salt fortified with iron, vitamin B12, folic acid and zinc, tested in school-based randomised trials. A 2006 double-blind trial cut iron deficiency in Bangalore schoolchildren from 78% to 25% in seven months."],
+    "t-public": ["Evidence that shapes policy", "Trial and absorption data have informed India\u2019s iron-plus anaemia prophylaxis initiative and the national rice fortification programme. Advisory roles include ICMR, the Department of Biotechnology and the Department of Food and Public Distribution."],
+    "t-anaemia": ["Finding why iron runs short", "Among young women in a Bangalore settlement, 39% were anaemic and 62% iron deficient, with diet the main cause. PRAKASH now builds individual-level anaemia tracking under Anemia Mukt Bharat."],
+    "t-uav": ["Building aircraft that fly themselves", "An aeromodeller since the early 2000s. In 2007 he built an open-source autopilot from the circuit board up and flew autonomous navigation missions for research at IISc."],
+    "t-devices": ["Devices built for scarce settings", "Wearable sensors for neonatal temperature and Kangaroo mother care, with a freezer tracker, smart pill box, peritoneal dialysis controller, arteriovenous fistula monitor and an indigenous LVAD in development. Two patents filed."],
+    "t-models": ["Models that guide decisions", "A mathematical model of the haemoglobin response to iron intake, built from absorption of habitual Indian meals. Today, data science and machine learning for anaemia surveillance and device validation."]
+  };
+  var h = document.querySelector("#hero-headline h1"), p = document.getElementById("hero-lede");
+  if (!h || !p) return;
+  var th, tp, tq, manual = false;
+  function pick() { manual = true; setTimeout(function () { manual = false; }, 50); }
+  document.addEventListener("click", function (e) { if (e.target.closest && e.target.closest(".hero-topics, .hc-ticks")) pick(); }, true);
+  document.addEventListener("keydown", function (e) { if (e.key === "Enter" || e.key === " ") pick(); }, true);
+  window.addEventListener("hero:slide", function (e) {
+    var t = e.detail && e.detail.target, c = t && C[t.id];
+    if (!c) return;
+    clearTimeout(th); clearTimeout(tp); clearTimeout(tq);
+    if (manual) {
+      h.classList.remove("is-swapping", "is-slow"); p.classList.remove("is-swapping", "is-slow");
+      h.innerHTML = c[0] + '<span class="hero-period">.</span>';
+      p.textContent = c[1];
+      return;
+    }
+    h.classList.add("is-slow", "is-swapping");
+    tq = setTimeout(function () { p.classList.add("is-slow", "is-swapping"); }, 120);
+    th = setTimeout(function () {
+      h.innerHTML = c[0] + '<span class="hero-period">.</span>';
+      h.classList.remove("is-swapping");
+    }, 900);
+    tp = setTimeout(function () {
+      p.textContent = c[1];
+      p.classList.remove("is-swapping");
+    }, 1050);
+  });
+})();
+</script>
+```

@@ -13,6 +13,14 @@ The Micronutrients Group of the Division of Nutrition at SJRI. Laboratory analys
 <ul class="plain-list gwork"><li><strong>Trace-element analysis</strong> – ICP-OES with microwave digestion (CEM MARS) of serum, whole blood, food and water samples, including method development, validation and quality control.</li><li><strong>Non-transferrin-bound iron</strong> – How oral iron–folic acid supplementation and iron-fortified rice change non-transferrin-bound iron in women of reproductive age.</li><li><strong>Double-fortified salt</strong> – Sensory acceptability and storage stability of salt fortified with iodine and iron.</li><li><strong>Iron absorption by stable isotopes</strong> – TIMS-based studies of iron absorption, including salt fortified with iodine and encapsulated ferric pyrophosphate (with ETH Zurich).</li><li><strong>Anaemia biomarkers</strong> – Hepcidin and other biomarkers by ELISA and the Roche platform, alongside field blood collection and biobanking.</li><li><strong>Calcium isotopes in children</strong> – Natural variability of urinary calcium isotopes as bone mineral changes with increasing dietary calcium (New York Academy of Sciences).</li></ul>
 ```
 
+```{=html}
+<div class="gphotos">
+  <figure><img src="../images/gallery/lab-pipetting.webp" width="1400" height="933" alt="Pipetting samples into a rack in the laboratory" loading="lazy" decoding="async"></figure>
+  <figure><img src="../images/gallery/lab-analyser.webp" width="1400" height="933" alt="Loading sample cups into a biochemistry analyser" loading="lazy" decoding="async"></figure>
+  <figure><img src="../images/gallery/lab-massspec.webp" width="1400" height="567" alt="Mass spectrometer for isotope analysis" loading="lazy" decoding="async"></figure>
+</div>
+```
+
 ## Team
 
 ```{=html}

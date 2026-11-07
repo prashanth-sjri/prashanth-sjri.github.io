@@ -31,8 +31,8 @@
   const TAU = Math.PI * 2;
 
   const COLORS = {
-    copper: [180, 105, 67],
-    teal: [88, 145, 131],
+    copper: [128, 169, 157],
+    teal: [92, 147, 135],
     grey: [113, 109, 103]
   };
 
@@ -43,9 +43,9 @@
     constellationCount: 13,
     nodesPerConstellation: [3, 4],
     nodeRadius: [1.1, 2.3],
-    connectionAlpha: 0.14,
-    nodeAlpha: 0.46,
-    connectionWidth: 0.65,
+    connectionAlpha: 0.18,
+    nodeAlpha: 0.36,
+    connectionWidth: 0.55,
     driftAmplitude: 13,
     morphSpeed: 0.30,
 
@@ -55,9 +55,9 @@
     arcMaxMobile: 3,
     arcEvery: [0.7, 2.0],      // seconds between new arcs
     arcLife: [6, 9],           // seconds
-    arcPeak: [0.18, 0.30],     // peak opacity
+    arcPeak: [0.12, 0.22],     // peak opacity
     arcBow: [0.14, 0.42],      // bend, as a fraction of chord length
-    arcWidth: 0.95,
+    arcWidth: 0.8,
     arcMinDistance: 180        // don't link anchors closer than this (px)
   };
 
@@ -484,13 +484,13 @@
       b: targetIdx,
       age: 0,
       life: (detail.life || 6.5) * 1.1,
-      peak: 0.78,
+      peak: 0.34,
       bow: (Math.random() < 0.5 ? -1 : 1) * rand(0.16, 0.3),
       wiggle: 1,
       color: COLORS[detail.color] || COLORS.copper,
       pulseAt: 0,
       directed: true,
-      width: 1.5
+      width: 0.9
     });
   }
 

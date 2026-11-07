@@ -5,6 +5,59 @@ toc: false
 
 Precision-Driven Response for Anemia Control and Sustainable Health: ICMR-funded implementation research in Koppal district, Karnataka, within the Anemia Mukt Bharat 2.0 framework.
 
+## Overview
+
+Anaemia remains one of India's most persistent public health problems. NFHS-5 found it in 57% of women of reproductive age, 52% of pregnant women and 67% of children under five, even after the Anemia Mukt Bharat programme and four decades of iron–folic acid supplementation. On the directive of NITI Aayog, ICMR reviewed the evidence and proposed a revised package, Anemia Mukt Bharat 2.0.
+
+PRAKASH asks a practical question: how can a district model of Anemia Mukt Bharat 2.0, co-developed with the government health system, be improved until coverage and adherence are high enough to bring anaemia down to 20% or less? It is an implementation research study. The government delivers the programme. The research team works alongside it, helps remove barriers, and measures what changes.
+
+```{=html}
+<div class="dv-facts" style="grid-template-columns:repeat(auto-fit,minmax(150px,1fr))">
+<div><b>5</b><span>Districts, in five states</span><em>Koppal is the Karnataka site</em></div>
+<div><b>≤20%</b><span>Anaemia prevalence targeted</span><em>With no severe anaemia</em></div>
+<div><b>≥80%</b><span>Coverage of key interventions</span><em>Across target groups</em></div>
+<div><b>4</b><span>Beneficiary groups</span><em>Children, adolescent girls, women, pregnant women</em></div>
+</div>
+```
+
+### Who is covered
+
+Children aged 6–59 months, adolescent girls aged 10–19, women of reproductive age (20–49) and pregnant women. Coverage is also tracked in children aged 6–9 and in adolescent boys.
+
+### The five districts
+
+Palghar (Maharashtra), Koppal (Karnataka), Palwal (Haryana), Kendujhar (Odisha) and Sehore (Madhya Pradesh). In Koppal, NFHS-5 anaemia prevalence was 68.1% in children under five, 45.6% in adolescent girls, 45.7% in non-pregnant women and 43.3% in pregnant women.
+
+## Approach
+
+The study uses mixed methods to build and refine the model, and an interrupted time series to judge its effect. The Consolidated Framework for Implementation Research (CFIR) and the ERIC list of implementation strategies guide the work, which is deliberately iterative: implement, measure, adjust, repeat.
+
+- **Preparation (months 0–3)** – Meetings with state, district and local stakeholders, hiring and training of the study team, approvals and pre-testing of tools.
+- **Formative phase and baseline (months 4–9)** – A systems-level diagnosis of barriers and enablers: current anaemia testing, provider knowledge and training, availability of point-of-care haemoglobin meters, laboratory support, procurement, the AMB dashboard, fortified rice distribution and counselling on diet. Baseline anaemia and coverage are measured.
+- **Implementation (months 10–39)** – An initial model is co-designed with stakeholders, then refined in repeated cycles into an optimised model that is rolled out across all blocks of the district. Surveys at 18, 30 and 36 months track progress.
+- **Reporting and dissemination (months 40–42)** – Findings are shared at local and national level, with a scale-up model adapted for other sites.
+
+### Three teams at each site
+
+- **Implementation Support Team** – handholds government staff at facilities and in communities, demonstrates practical steps and helps work through barriers.
+- **Project Learning Team** – uses interviews, focus groups and observation to find why barriers and enablers exist, and collects process indicators.
+- **Outcome Monitoring Team** – an independent group that measures haemoglobin and coverage.
+
+### Measuring outcomes
+
+Each survey covers about 400 children, 350 adolescent girls, 300 women of reproductive age and 300 pregnant women, drawn by multi-stage cluster sampling across four randomly chosen blocks. Haemoglobin is measured with digital haemoglobinometers. At baseline and endline, venous samples are also run on portable HORIBA analysers. There are five surveys over the study: baseline, three interim and endline.
+
+## Interventions
+
+The package follows Anemia Mukt Bharat 2.0 and is delivered through existing health, nutrition and school platforms.
+
+- **Test, treat and track** – Anaemia is tested with digital haemoglobinometers at routine contacts (antenatal visits, village health and nutrition days, immunisation, schools, health centres). Treatment follows a protocol, and ASHA workers follow each person at home until the anaemia is resolved. This is the part the PRAKASH tracking platform supports.
+- **Prophylactic iron and folic acid** – Given to every group through the platform that suits it: village health days, schools on a fixed weekly day, adolescent health days, antenatal contacts and health centres.
+- **Deworming** – A biannual 400 mg albendazole dose for children and adolescents and for women of reproductive age, and one dose for pregnant women after the first trimester.
+- **Fortified rice** – Distribution through the public distribution system, ICDS and PM-POSHAN is tracked, and community awareness of its benefits is promoted.
+- **Eating right** – Counselling on diets rich in iron, folate and other micronutrients, including millets.
+- **Related measures** – Delayed cord clamping, iron for low birth weight babies, testing for anaemia in people with chronic infections, and water, sanitation and hygiene.
+
 ## Current work
 
 ```{=html}

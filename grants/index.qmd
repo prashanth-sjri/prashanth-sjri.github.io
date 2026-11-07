@@ -10,7 +10,7 @@ Research funding held as principal investigator. The larger awards are shown wit
 <table class="grant-table">
   <thead><tr><th>Project</th><th>Funder</th><th>Period</th><th class="amt">Value</th></tr></thead>
   <tbody>
-    <tr><td><strong>ICMR CAR MEDTECH</strong><br><span class="g-sub">Centre for Advanced Research on medical device development, characterisation and validation: a clinical trials approach</span></td><td>ICMR</td><td>2024–2029</td><td class="amt">₹14.7 crore</td></tr>
+    <tr><td><strong>ICMR-CAR MEDTECH</strong><br><span class="g-sub">Centre for Advanced Research on medical device development, characterisation and validation: a clinical trials approach</span></td><td>ICMR</td><td>2024–2029</td><td class="amt">₹14.7 crore</td></tr>
     <tr><td><strong>DBT Rice</strong><br><span class="g-sub">Long-term efficacy of indigenously developed micronutrient-fortified rice on iron stores in children and their mothers</span></td><td>DBT</td><td>2019–2022</td><td class="amt">₹8.96 crore</td></tr>
     <tr><td><strong>RICE-MNE</strong><br><span class="g-sub">Learning initiative on food consumption, dietary diversity and nutrient inadequacy in the context of rice fortification across Uttar Pradesh, Chhattisgarh and Andhra Pradesh</span></td><td>World Food Programme</td><td>3 years</td><td class="amt">₹8.26 crore</td></tr>
     <tr><td><strong>PRAKASH</strong><br><span class="g-sub">Intervention delivery strategies for Anemia Mukt Bharat 2.0 in selected districts of India: an implementation research study</span></td><td>ICMR</td><td>2025–2027</td><td class="amt">₹4.57 crore</td></tr>
