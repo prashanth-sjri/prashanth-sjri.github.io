@@ -144,23 +144,6 @@ approaches to address practical healthcare needs.
 
 :::
 
-```{=html}
-<div class="scene" aria-label="Photographs from the field and the laboratory">
-  <figure class="sc sc-1" style="--d:0s"><img src="images/gallery/field-workshop.webp" width="1400" height="933" alt="Prof. Thankachan addressing a community health workshop" loading="lazy" decoding="async"><figcaption>Community workshop</figcaption></figure>
-  <figure class="sc sc-2" style="--d:.15s"><img src="images/gallery/lab-analyser-room.webp" width="1400" height="933" alt="Clinical chemistry analyser in the nutrition laboratory" loading="lazy" decoding="async"><figcaption>Nutrition laboratory</figcaption></figure>
-  <figure class="sc sc-3" style="--d:.3s"><img src="images/gallery/field-ceremony.webp" width="1400" height="933" alt="Plant-watering ceremony at a field programme inauguration" loading="lazy" decoding="async"><figcaption>Programme inauguration</figcaption></figure>
-  <figure class="sc sc-4" style="--d:.45s"><img src="images/gallery/lab-massspec.webp" width="1400" height="567" alt="Mass spectrometer used for isotope analysis" loading="lazy" decoding="async"><figcaption>Isotope analysis</figcaption></figure>
-</div>
-<script>
-(function(){
-  var els=document.querySelectorAll(".scene .sc"); if(!els.length) return;
-  if(!("IntersectionObserver" in window)||matchMedia("(prefers-reduced-motion: reduce)").matches){els.forEach(function(e){e.classList.add("in")});return}
-  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.15});
-  els.forEach(function(e){io.observe(e)});
-})();
-</script>
-```
-
 ::: {.section-divider}
 :::
 

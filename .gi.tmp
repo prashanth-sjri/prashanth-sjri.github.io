@@ -1,0 +1,24 @@
+/.quarto/
+**/*.quarto_ipynb
+_site/
+_backup-*/
+.DS_Store
+*.docx
+_quarto.yml.save
+HOMEPAGE-*.txt
+people/Dr Prashanth Group/
+images/About Prashanth/
+.fuse_hidden*
+**/.fuse_hidden*
+images/gallery/field-awareness.webp
+images/gallery/field-interviews.webp
+images/gallery/field-sampling.webp
+images/gallery/field-survey.webp
+images/gallery/lab-cad.webp
+images/gallery/lab-electronics.webp
+images/gallery/lab-hand-device.webp
+images/gallery/lab-makers-printers.webp
+Lab Photos/
+Field Visit Pictures/
+_tmp_sheets/
+.fuse_hidden*

@@ -2278,3 +2278,15 @@ body:has(.pebble) main.content {
 .gphotos figure:hover img { transform: scale(1.05); }
 .gphotos figure::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(160deg, rgba(128,169,157,.25), rgba(247,248,243,0) 60%); }
 @media (max-width: 640px) { .gphotos { grid-template-columns: 1fr; } }
+
+/* PRAKASH field photos */
+.gfield { display: grid; grid-template-columns: repeat(6, 1fr); gap: 14px; margin: 22px 0 8px; }
+.gf { position: relative; margin: 0; overflow: hidden; border-radius: 18px 6px 18px 6px; aspect-ratio: 4 / 3; grid-column: span 3; }
+.gf-wide { grid-column: span 4; }
+.gf:nth-child(2) { grid-column: span 2; aspect-ratio: auto; }
+.gf:nth-child(3) { grid-column: span 2; aspect-ratio: auto; }
+.gf img { width: 100%; height: 100%; object-fit: cover; display: block; filter: saturate(.85); transition: transform 1.6s cubic-bezier(.2,.7,.2,1); }
+.gf:hover img { transform: scale(1.04); }
+.gf::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: linear-gradient(180deg, rgba(92,147,135,0) 55%, rgba(40,78,68,.5) 100%), linear-gradient(135deg, rgba(128,169,157,.18), rgba(247,248,243,0) 55%); }
+.gf figcaption { position: absolute; left: 14px; bottom: 10px; z-index: 1; color: #F7F8F3; font: 500 11px/1 'IBM Plex Sans', sans-serif; letter-spacing: .06em; text-transform: uppercase; }
+@media (max-width: 640px) { .gfield { grid-template-columns: 1fr; } .gf, .gf-wide, .gf:nth-child(2), .gf:nth-child(3) { grid-column: 1; aspect-ratio: 3 / 2; } }
