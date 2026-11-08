@@ -2209,14 +2209,14 @@ body:has(.pebble) main.content {
 .pcard summary .pin svg{width:16px;height:16px}
 
 /* aviation / UAS section */
-.homepage .uas { max-width: 760px; }
-.homepage .uas p { margin: 0 0 14px; }
-.homepage .uas .uas-lead { font-size: 1.04em; }
+.uas { max-width: 760px; }
+.uas p { margin: 0 0 14px; }
+.uas .uas-lead { font-size: 1.04em; }
 .uas-gallery { margin: 26px 0 8px; display: flex; flex-direction: column; gap: 12px; }
 .uas-row { display: flex; gap: 12px; align-items: stretch; }
 .uas-row figure { flex: var(--ar) 1 0; height: var(--h); margin: 0; border-radius: 14px; overflow: hidden; background: #e9ece4; min-width: 0; }
 .uas-row img { width: 100%; height: 100%; object-fit: cover; display: block; }
-.homepage .uas .uas-credit { font-size: 12.5px; color: var(--muted, #6b746f); margin: 4px 0 0; }
+.uas .uas-credit { font-size: 12.5px; color: var(--muted, #6b746f); margin: 4px 0 0; }
 .uas-skills { margin-top: 26px; }
 .uas-skills h3 { font-size: 1.02rem; margin: 26px 0 8px; padding-top: 14px; border-top: 1px solid rgba(92,147,135,.28); }
 .uas-skills h3:first-child { margin-top: 0; }

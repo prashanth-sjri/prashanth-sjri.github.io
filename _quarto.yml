@@ -31,6 +31,8 @@ website:
             href: grants/index.qmd
           - text: "News"
             href: news/index.qmd
+          - text: "Other interests"
+            href: other-interests/index.qmd
 
   page-footer:
     center: |
